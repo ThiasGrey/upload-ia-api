@@ -1,0 +1,27 @@
+{
+  "name": "upload-ia-api",
+  "version": "1.0.0",
+  "description": "Api to use in  Video Transcription ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "prisma": "^5.4.0",
+    "tsx": "^3.12.10",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.4.0",
+    "@fastify/multipart": "^8.0.0",
+    "@prisma/client": "^5.4.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.23.2",
+    "openai": "^4.11.1",
+    "zod": "^3.22.4"
+  }
+}
